@@ -18,6 +18,11 @@ export async function POST(request,response){
     //OBJETO USUÁRIO DO REQUEST
     const usuario = await request.json();
 
+<<<<<<< HEAD
+=======
+    
+
+>>>>>>> 42f1d36be325e0208945e9c9152948e55ca71b4c
     for (let x = 0; x < body.usuarios.length; x++) {
         const u = body.usuarios[x];
         // console.log("USUÁRIO DA BASE : ", u.name);
